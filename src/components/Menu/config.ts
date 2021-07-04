@@ -1,3 +1,5 @@
+import {BASE_LIQUIDITY_POOL_URL, BASE_SWAP_URL} from "../../config";
+
 export interface MenuItem {
   label: string
   href: string
@@ -10,11 +12,11 @@ const MenuItemList: MenuItem[] = [
   },
   {
     label: 'Exchange',
-    href: '/swap',
+    href: BASE_SWAP_URL,
   },
   {
     label: 'Liquidity',
-    href: '/#/pool',
+    href: BASE_LIQUIDITY_POOL_URL,
   },
   {
     label: 'Farms',
