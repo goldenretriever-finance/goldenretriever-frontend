@@ -76,6 +76,11 @@ const HomeContent = styled.div`
     margin-bottom: 30px;
   }
 
+  h2 .mrauto {
+    margin: 0 auto;
+    display: block;
+  }
+
   .txt_center {
     text-align: center;
   }
