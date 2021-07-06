@@ -9,8 +9,8 @@ import {
 describe('getBscScanAddressUrl', () => {
   it.each([
     [
-      '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
-      `${BASE_BSC_SCAN_URL}/address/0x73feaa1eE314F8c655E354234017bE2193C9E24E`,
+      '0x7b27B9BF9DEf7e85c2b1cfe9199835265E896c5A',
+      `${BASE_BSC_SCAN_URL}/address/0x7b27B9BF9DEf7e85c2b1cfe9199835265E896c5A`,
     ],
     [
       '0x8a06ff2748edcba3fb4e44a6bfda4e46769e557b',
