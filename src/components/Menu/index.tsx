@@ -88,10 +88,7 @@ const Menu = () => {
   const { onPresentConnectModal } = useWalletModal(login, logout)
 
   const handleCtaClick = () => {
-    // FIXME アカウントがない場合、登録されてない場合の処理追加
-    if (!account) {
       onPresentConnectModal()
-    }
   }
   return (
     <Nav>
