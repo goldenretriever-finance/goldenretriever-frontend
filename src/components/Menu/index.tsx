@@ -1,10 +1,10 @@
 import React from 'react'
-import { useTranslation } from 'contexts/Localization'
-import { useLocation } from 'react-router-dom'
+import {useTranslation} from 'contexts/Localization'
+import {useLocation} from 'react-router-dom'
 import useAuth from 'hooks/useAuth'
 import styled from 'styled-components'
-import { useWalletModal } from '@pancakeswap/uikit'
-import { useWeb3React } from '@web3-react/core'
+import {useWalletModal} from '@pancakeswap/uikit'
+import {useWeb3React} from '@web3-react/core'
 import MenuItemList from './config'
 
 const Nav = styled.nav`
@@ -22,10 +22,13 @@ const Nav = styled.nav`
     display: block;
     width: 259px;
   }
+
   .personal {
     display: flex;
+
     .profile {
       display: block;
+
       img {
         width: 28px;
         height: 28px;
@@ -49,6 +52,7 @@ const NavList = styled.div`
     text-align: center;
     border-bottom: 2px solid transparent;
     opacity: 0.36;
+
     &.github {
       opacity: 1;
       display: flex;
@@ -81,19 +85,23 @@ const StyledButton = styled.button`
 `
 
 const Menu = () => {
-  const { account } = useWeb3React()
+  const {account} = useWeb3React()
   const location = useLocation()
-  const { t } = useTranslation()
-  const { login, logout } = useAuth()
-  const { onPresentConnectModal } = useWalletModal(login, logout)
+  const {t} = useTranslation()
+  const {login, logout} = useAuth()
+  const {onPresentConnectModal, onPresentAccountModal} = useWalletModal(login, logout)
 
   const handleCtaClick = () => {
+    if (!account) {
       onPresentConnectModal()
+    } else {
+      onPresentAccountModal()
+    }
   }
   return (
     <Nav>
       <a href="/" className="logo">
-        <img src="/images/h_logo.png" alt="Golden retriever finance" />
+        <img src="/images/h_logo.png" alt="Golden retriever finance"/>
       </a>
       <NavList>
         {MenuItemList.map((item) => (
@@ -102,13 +110,17 @@ const Menu = () => {
           </a>
         ))}
         <a href="/#" className="github">
-          <img src="/images/mark-github.png" alt="github" />
+          <img src="/images/mark-github.png" alt="github"/>
         </a>
       </NavList>
       <div className="personal">
-        <StyledButton onClick={() => handleCtaClick()}>Connect</StyledButton>
+        {account ? (
+          <StyledButton onClick={() => handleCtaClick()}>Account</StyledButton>
+        ) : (
+          <StyledButton onClick={() => handleCtaClick()}>Connect</StyledButton>
+        )}
         <a href="/profile" className="profile">
-          <img src="/images/header-profile.png" alt="profile" />
+          <img src="/images/header-profile.png" alt="profile"/>
         </a>
       </div>
     </Nav>
