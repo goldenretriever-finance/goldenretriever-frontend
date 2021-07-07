@@ -90,7 +90,7 @@ const Menu = () => {
   const {t} = useTranslation()
   const {login, logout} = useAuth()
   const {onPresentConnectModal, onPresentAccountModal} = useWalletModal(login, logout)
-
+  const accountEllipsis = account ? `${account.substring(0, 4)}...${account.substring(account.length - 4)}` : null;
   const handleCtaClick = () => {
     if (!account) {
       onPresentConnectModal()
@@ -115,7 +115,7 @@ const Menu = () => {
       </NavList>
       <div className="personal">
         {account ? (
-          <StyledButton onClick={() => handleCtaClick()}>Account</StyledButton>
+          <StyledButton onClick={() => handleCtaClick()}>{accountEllipsis}</StyledButton>
         ) : (
           <StyledButton onClick={() => handleCtaClick()}>Connect</StyledButton>
         )}
