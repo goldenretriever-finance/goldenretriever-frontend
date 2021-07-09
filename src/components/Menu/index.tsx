@@ -109,7 +109,7 @@ const Menu = () => {
             {t(item.label)}
           </a>
         ))}
-        <a href="/#" className="github">
+        <a href="https://github.com/goldenretriever-finance/goldenretriever-frontend" className="github">
           <img src="/images/mark-github.png" alt="github"/>
         </a>
       </NavList>
@@ -119,9 +119,6 @@ const Menu = () => {
         ) : (
           <StyledButton onClick={() => handleCtaClick()}>Connect</StyledButton>
         )}
-        <a href="/profile" className="profile">
-          <img src="/images/header-profile.png" alt="profile"/>
-        </a>
       </div>
     </Nav>
   )
