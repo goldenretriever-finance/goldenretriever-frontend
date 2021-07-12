@@ -26,7 +26,8 @@ import { ViewMode } from './components/ToggleView/ToggleView'
 import { getAprData, getCakeVaultEarnings } from './helpers'
 
 const Container = styled.div`
-  width: 1100px;
+  max-width: 1100px;
+  width: 94%;
   margin: 0 auto;
 `
 

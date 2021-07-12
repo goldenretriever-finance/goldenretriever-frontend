@@ -20,7 +20,8 @@ const AnimeBg = styled.div`
 `
 
 const Container = styled.div`
-  width: 1080px;
+  max-width: 1080px;
+  width: 94%;
   margin: 0 auto;
   padding: 62px 0;
 
@@ -112,7 +113,7 @@ const Section3 = styled.div`
     width: 50%;
   }
   img {
-    height: 375px;
+    max-height: 375px;
     margin: 0 auto;
     display: block;
   }
@@ -128,7 +129,7 @@ const Section4 = styled.div`
   }
 
   img {
-    height: 350px;
+    max-height: 350px;
   }
 `
 
