@@ -17,6 +17,7 @@ const Area = styled.div`
      padding: 10px;
      margin-bottom: 10px;
      box-shadow: 0 0 16px rgb(7 0 27 / 20%);
+     float:left;
 
       :nth-child(5) {
         width: 100%;
@@ -27,6 +28,7 @@ const Area = styled.div`
       .box_wrap {
         width: 19%;
         background-color: #0c0026;
+        float:none;
 
         :nth-child(5) {
           width: 19%;
@@ -49,14 +51,9 @@ const Area = styled.div`
   }
 
   .top_area {
-    min-height: auto;
+    min-height: 86px;
   }
-  ${({ theme }) => theme.mediaQueries.xs} {
-    .top_area {
-      min-height: 86px;
-    }
-  }
-  }
+  
 
   h3 {
     font-size: 18px;
