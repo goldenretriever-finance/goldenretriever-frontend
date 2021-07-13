@@ -126,9 +126,10 @@ const Section2 = styled.div`
 const Section3 = styled.div`
   background-image: url('/images/homeequal.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 59%;
   padding-bottom: 0px;
   padding-top: 1vw;
+  background-position: top center;
 
   ${({ theme }) => theme.mediaQueries.sm} {
     padding-bottom: 50px;
@@ -150,11 +151,28 @@ const Section3 = styled.div`
   img {
     max-height: 375px;
     margin: 0 auto;
-    display: block;
+    display: none;
+    ${({ theme }) => theme.mediaQueries.sm} {
+      display: block;
+    }
+   }
   }
 `
 
 const Section4 = styled.div`
+  background-image: url('/images/homesque.png');
+  background-repeat: no-repeat;
+  background-size: 59%;
+  padding-bottom: 0px;
+  padding-top: 1vw;
+  background-position: top center;
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    padding-bottom: 50px;
+    padding-top: 0vw;
+    background:none;
+   }
+  }
   .txt_left {
     text-align: left;
   }
@@ -169,6 +187,11 @@ const Section4 = styled.div`
 
   img {
     max-height: 350px;
+    display: none;
+    ${({ theme }) => theme.mediaQueries.sm} {
+      display: block;
+    }
+   }
   }
 `
 
