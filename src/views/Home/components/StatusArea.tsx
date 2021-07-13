@@ -32,6 +32,18 @@ const Area = styled.div`
 
       :nth-child(5) {
         width: 98%;
+        
+        .top_area {
+          min-height: auto;
+        }
+
+        ${({ theme }) => theme.mediaQueries.sm} {
+          .top_area {
+            min-height: 86px;
+          }
+          }
+        }
+        
        }
       
        

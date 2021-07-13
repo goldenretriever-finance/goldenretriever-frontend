@@ -100,7 +100,7 @@ const HomeContent = styled.div`
   }
 
   h2 .mrauto {
-    margin: 0 auto;
+    margin: 0 auto 30px;
     display: block;
   }
 
@@ -255,6 +255,10 @@ const Profile = styled.div`
   margin: 0 auto;
   display: block;
 
+  ${({ theme }) => theme.mediaQueries.sm} {
+    width: 90%;
+  }
+
   .line {
     margin: 0 auto;
   }
@@ -289,6 +293,11 @@ const Profile = styled.div`
       flex-wrap: nowrap;
       justify-content: flex-start;
       line-height: 1.4;
+      margin-top: 12px;
+
+      ${({ theme }) => theme.mediaQueries.sm} {
+        width: 50%;
+      }
 
       .caption {
         flex: 0 0 100px;
@@ -306,6 +315,10 @@ const Member = styled.div`
   width: 80%;
   margin: 0 auto;
   display: block;
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    width: 90%;
+  }
 
   .line {
     margin: 0 auto;
