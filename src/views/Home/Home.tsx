@@ -276,9 +276,7 @@ const Home: React.FC = () => {
                 <img src="/images/well.png" alt="Golden retriever finance" />
               </div>
               <div className="text_l">
-                The Golden retriever platform is <br />a community-supported platform.
-                <br />
-                People all over the world will love Golden Retriever!
+               {t('The Golden retriever platform is a community-supported platform. People all over the world will love Golden Retriever!')}
               </div>
               <div className="sns_links">
                 <a href="/#" className="sns_link" target="_blank">
