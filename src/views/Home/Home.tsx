@@ -26,7 +26,7 @@ const Container = styled.div`
   padding: 62px 0;
 
   .flex {
-    display: flex;
+    display: block;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
@@ -44,11 +44,12 @@ const Container = styled.div`
     width: 50%;
   }
 
-  ${({ theme }) => theme.mediaQueries.xs} {
+  ${({ theme }) => theme.mediaQueries.sm} {
     .flex {
-      display: block;
+      display: flex;
     }
   }
+}
 `
 
 const HomeMv = styled.div`
@@ -106,11 +107,11 @@ const Section2 = styled.div`
   }
 
   .txtbox {
-    width: 50%;
-
-    ${({ theme }) => theme.mediaQueries.xs} {
-      width: 100%;
+    width: 100%;
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 50%;
     }
+  }
   }
 `
 
@@ -120,11 +121,11 @@ const Section3 = styled.div`
   }
 
   .txtbox {
-    width: 50%;
-
-    ${({ theme }) => theme.mediaQueries.xs} {
-      width: 100%;
+    width: 100%;
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 50%;
     }
+  }
   }
   img {
     max-height: 375px;
@@ -139,11 +140,11 @@ const Section4 = styled.div`
   }
 
   .txtbox {
-    width: 50%;
-
-    ${({ theme }) => theme.mediaQueries.xs} {
-      width: 100%;
+    width: 100%;
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 50%;
     }
+  }
   }
 
   img {
