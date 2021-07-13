@@ -87,6 +87,11 @@ const HomeContent = styled.div`
     margin-top: 100px;
     margin-bottom: 24px;
     line-height: 1.1;
+    text-align: center;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      text-align: left;
+      }
   }
 
   h2 .line {
@@ -96,7 +101,11 @@ const HomeContent = styled.div`
     border-radius: 2px;
     background: rgb(152, 30, 88);
     background: linear-gradient(90deg, rgba(152, 30, 88, 1) 0%, rgba(9, 71, 231, 1) 100%);
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      margin: 0 0 30px;
+      }
   }
 
   h2 .mrauto {
