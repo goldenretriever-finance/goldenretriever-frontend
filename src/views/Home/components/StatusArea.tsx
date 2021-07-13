@@ -17,6 +17,14 @@ const Area = styled.div`
     padding: 10px;
     box-shadow: 0 0 16px rgb(7 0 27 / 20%);
   }
+  ${({ theme }) => theme.mediaQueries.xs} {
+    .box_wrap {
+      width: 100%;
+      background-color: #501dc0;
+      margin-bottom: 10px;
+      }
+    }
+  }
 
   .btn_gr {
     display: block;
@@ -33,6 +41,11 @@ const Area = styled.div`
 
   .top_area {
     min-height: 86px;
+  }
+  ${({ theme }) => theme.mediaQueries.xs} {
+    .top_area {
+      mmin-height: auto;
+    }
   }
 
   h3 {
