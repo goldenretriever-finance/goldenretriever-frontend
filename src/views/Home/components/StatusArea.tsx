@@ -22,6 +22,17 @@ const Area = styled.div`
       :nth-child(5) {
         width: 98%;
        }
+      
+       :after {
+        content: "";
+        display: block;
+        clear: both;
+      } 
+      :before {
+        content: "";
+        display: block;
+        clear: both;
+      } 
      }
   
   ${({ theme }) => theme.mediaQueries.sm} {   

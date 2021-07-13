@@ -21,7 +21,7 @@ const AnimeBg = styled.div`
 
 const Container = styled.div`
   max-width: 1080px;
-  width: 90%;
+  width: 84%;
   margin: 0 auto;
   padding: 62px 0;
 
@@ -364,6 +364,7 @@ const Member = styled.div`
         }
         ${({ theme }) => theme.mediaQueries.sm} {
           display: initial;
+          margin-top: 0px;
           
         }
        }
