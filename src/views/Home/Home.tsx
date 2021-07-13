@@ -311,7 +311,7 @@ const Profile = styled.div`
       margin-top: 12px;
 
       ${({ theme }) => theme.mediaQueries.sm} {
-        width: 50%;
+        width: 100%;
       }
 
       .caption {
@@ -389,7 +389,7 @@ const Member = styled.div`
           font-weight: bold;
           display: block;
           margin-top: 14px;
-        }
+        
         ${({ theme }) => theme.mediaQueries.sm} {
           display: initial;
           margin-top: 0px;
@@ -504,14 +504,14 @@ const Home: React.FC = () => {
               </div>
             </Section4>
             <SlipPage className="txt_center">
-              <div className="title">12%のスリップページを使用することをお勧めします。</div>
+              <div className="title">We recommend using 12% slippage</div>
               <div className="contract bold">
                 <span className="pr20">Golden retriever Contract</span>0x111111111111111111111111111111111111111111111
               </div>
             </SlipPage>
             <Profile>
               <h2 className="txt_center">
-                <span className="line" />
+                <span className="line mrauto" />
                 Golden Retriever
               </h2>
               <div className="flex">
@@ -551,7 +551,7 @@ const Home: React.FC = () => {
             </Profile>
             <Member>
               <h2 className="txt_center">
-                <span className="line" />
+                <span className="line mrauto" />
                 Project member
               </h2>
               <div className="flex spflex">
