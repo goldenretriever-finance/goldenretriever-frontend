@@ -100,7 +100,15 @@ const Section2 = styled.div`
   background-image: url('/images/homecommunity.png');
   background-repeat: no-repeat;
   background-size: contain;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
+  padding-top: 1vw;
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    width: 50%;
+    padding-bottom: 50px;
+    padding-top: 0vw;
+  }
+}
 
   .txt_left {
     text-align: left;
@@ -116,6 +124,18 @@ const Section2 = styled.div`
 `
 
 const Section3 = styled.div`
+  background-image: url('/images/homeequal.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 0px;
+  padding-top: 1vw;
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    padding-bottom: 50px;
+    padding-top: 0vw;
+    background:none;
+   }
+  }
   .txt_right {
     text-align: right;
   }

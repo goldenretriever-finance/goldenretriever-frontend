@@ -11,18 +11,26 @@ import { useGetStats } from '../../../hooks/api'
 const Area = styled.div`
     .box_wrap {
      text-align: center;
-     width: 100%;
+     width: 49%;
      background-color: #501dc0;
      border-radius: 6px;
      padding: 10px;
      margin-bottom: 10px;
      box-shadow: 0 0 16px rgb(7 0 27 / 20%);
+
+      :nth-child(5) {
+        width: 100%;
+       }
      }
-  }
+  
   ${({ theme }) => theme.mediaQueries.sm} {   
       .box_wrap {
         width: 19%;
         background-color: #0c0026;
+
+        :nth-child(5) {
+          width: 19%;
+         }
       }
     }
   }
@@ -41,11 +49,11 @@ const Area = styled.div`
   }
 
   .top_area {
-    min-height: 86px;
+    min-height: auto;
   }
   ${({ theme }) => theme.mediaQueries.xs} {
     .top_area {
-      mmin-height: auto;
+      min-height: 86px;
     }
   }
   }
