@@ -64,6 +64,21 @@ const HomeMv = styled.div`
     display: inline-block;
     margin-right: 10px;
   }
+
+  div.right_area{
+    width: 68%;
+    margin-left: 36%;
+    margin-top: -23vw;
+    position: relative;
+    z-index: 0;
+  }
+  ${({ theme }) => theme.mediaQueries.sm} {
+    div.right_area {
+      width: 50%;
+    margin-left: 0%;
+    margin-top: 0vw;
+    }
+  }
 `
 
 const HomeContent = styled.div`
@@ -164,7 +179,7 @@ const Section4 = styled.div`
   background-repeat: no-repeat;
   background-size: 59%;
   padding-bottom: 0px;
-  padding-top: 1vw;
+  padding-top: 26vw;
   background-position: top center;
 
   ${({ theme }) => theme.mediaQueries.sm} {
