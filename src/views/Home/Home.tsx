@@ -74,7 +74,7 @@ const HomeMv = styled.div`
   }
   ${({ theme }) => theme.mediaQueries.sm} {
     div.right_area {
-      width: 50%;
+      width: auto;
     margin-left: 0%;
     margin-top: 0vw;
     }
@@ -117,9 +117,9 @@ const Section2 = styled.div`
   background-size: contain;
   padding-bottom: 0px;
   padding-top: 1vw;
+  width: 100%;
 
   ${({ theme }) => theme.mediaQueries.sm} {
-    width: 50%;
     padding-bottom: 50px;
     padding-top: 0vw;
   }

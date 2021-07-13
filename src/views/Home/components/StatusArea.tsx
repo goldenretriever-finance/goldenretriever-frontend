@@ -9,6 +9,17 @@ import { fetchFarmsPublicDataAsync, nonArchivedFarms } from '../../../state/farm
 import { useGetStats } from '../../../hooks/api'
 
 const Area = styled.div`
+:after {
+  content: "";
+  display: block;
+  clear: both;
+} 
+:before {
+  content: "";
+  display: block;
+  clear: both;
+} 
+
     .box_wrap {
      text-align: center;
      width: 48%;
@@ -23,16 +34,7 @@ const Area = styled.div`
         width: 98%;
        }
       
-       :after {
-        content: "";
-        display: block;
-        clear: both;
-      } 
-      :before {
-        content: "";
-        display: block;
-        clear: both;
-      } 
+       
      }
   
   ${({ theme }) => theme.mediaQueries.sm} {   
