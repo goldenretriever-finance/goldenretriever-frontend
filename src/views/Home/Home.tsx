@@ -29,10 +29,6 @@ const Container = styled.div`
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-
-    ${({ theme }) => theme.mediaQueries.sm} {
-      display: block;
-    }
   }
 
   .text_l {
@@ -46,6 +42,12 @@ const Container = styled.div`
 
   .image_w50 {
     width: 50%;
+  }
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    .flex {
+      display: block;
+    }
   }
 `
 
