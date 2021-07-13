@@ -211,7 +211,7 @@ const Section4 = styled.div`
 `
 
 const SlipPage = styled.div`
-  width: 80%;
+  width: 90%;
   margin: 80px auto;
   display: block;
   line-height: 50px;
@@ -226,13 +226,27 @@ const SlipPage = styled.div`
   .title {
     color: #ffffff;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 14px 20px;
   }
 
   .contract {
     background: rgb(152, 30, 88);
     background: linear-gradient(90deg, rgba(152, 30, 88, 1) 0%, rgba(9, 71, 231, 1) 100%);
     font-weight: 600;
+    line-height: 1.4;
+    padding: 14px 20px;
+
+    span{
+      padding: 0 10px;
+      display: block;
+
+      ${({ theme }) => theme.mediaQueries.sm} {
+        display: inline;
+      }
+     }
+    }
   }
 `
 
@@ -246,7 +260,14 @@ const Profile = styled.div`
   }
 
   .profimage {
-    width: 50%;
+    width: 100%;
+    margin: 0 auto 30px;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 50%;
+      margin: 0 0 0px;
+    }
+   }
 
     img {
       margin: 0 auto;
@@ -256,13 +277,18 @@ const Profile = styled.div`
   }
 
   .txtbox {
-    width: 50%;
+    width: 100%;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 50%;
+    }
+   }
 
     li {
       display: flex;
       flex-wrap: nowrap;
       justify-content: flex-start;
-      line-height: 1.8;
+      line-height: 1.4;
 
       .caption {
         flex: 0 0 100px;
@@ -289,8 +315,22 @@ const Member = styled.div`
     margin-bottom: 30px;
   }
 
+  .spflex{
+    display: flex;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      display: flex;
+    }
+   }
+  }
+
   .memberimage {
-    width: 20%;
+    width: 53%;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 20%;
+    }
+   }
 
     img {
       width: 80%;
@@ -305,16 +345,28 @@ const Member = styled.div`
       padding: 0;
 
       li {
-        display: flex;
+        display: block;
         flex-wrap: nowrap;
         justify-content: flex-start;
         line-height: 1.8;
+
+        ${({ theme }) => theme.mediaQueries.sm} {
+          display: flex;
+        }
+       }
 
         .caption {
           flex: 0 0 100px;
           margin-right: 20px;
           font-weight: bold;
+          display: block;
+          margin-top: 14px;
         }
+        ${({ theme }) => theme.mediaQueries.sm} {
+          display: initial;
+          
+        }
+       }
 
         .text_m {
           font-size: 14px;
@@ -455,10 +507,6 @@ const Home: React.FC = () => {
                       </span>
                     </li>
                     <li>
-                      <span className="caption">性格</span>
-                      <span className="text_m" />
-                    </li>
-                    <li>
                       <span className="caption">Dream</span>
                       <span className="text_m">I want fans all over the world to have fun playing in the dog park</span>
                     </li>
@@ -477,7 +525,7 @@ const Home: React.FC = () => {
                 <span className="line" />
                 Project member
               </h2>
-              <div className="flex">
+              <div className="flex spflex">
                 <div className="memberimage">
                   <img src="/images/dog1.png" alt="Engineer / Leader dog" />
                 </div>
@@ -502,7 +550,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex">
+              <div className="flex spflex">
                 <div className="memberimage">
                   <img src="/images/dog2.png" alt="Engineer dog" />
                 </div>
@@ -527,7 +575,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex">
+              <div className="flex spflex">
                 <div className="memberimage">
                   <img src="/images/dog3.png" alt="Designer dog" />
                 </div>
@@ -552,7 +600,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex">
+              <div className="flex spflex">
                 <div className="memberimage">
                   <img src="/images/dog4.png" alt="Marketing dog" />
                 </div>
@@ -577,7 +625,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
 
-              <div className="flex">
+              <div className="flex spflex">
                 <div className="memberimage">
                   <img src="/images/dog5.png" alt="Large and gentle" />
                 </div>

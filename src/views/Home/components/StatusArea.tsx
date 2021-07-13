@@ -20,7 +20,7 @@ const Area = styled.div`
      float:left;
 
       :nth-child(5) {
-        width: 100%;
+        width: 98%;
        }
      }
   
@@ -69,6 +69,13 @@ const Area = styled.div`
     margin-top: 5px;
     margin-bottom: 5px;
   }
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    .box_wrap :nth-child(5) .top_area {
+      min-height: auto;
+    }
+    }
+  }
 `
 
 const StatusArea: FC = () => {
@@ -115,7 +122,7 @@ const StatusArea: FC = () => {
           <h3>Exchange</h3>
           <div className="text">Exchange tokens</div>
         </div>
-        <a href="/swap" className="btn_s btn_gr bold">
+        <a href="https://exchange.goldenretriever-finance.com/#/swap" className="btn_s btn_gr bold">
           Swap
         </a>
       </div>
@@ -124,7 +131,7 @@ const StatusArea: FC = () => {
           <h3>Liquidity</h3>
           <div className="text">Make LP</div>
         </div>
-        <a href="/swap" className="btn_s btn_gr bold">
+        <a href="https://exchange.goldenretriever-finance.com/#/pool" className="btn_s btn_gr bold">
           Add LP
         </a>
       </div>
@@ -134,7 +141,7 @@ const StatusArea: FC = () => {
           <div className="text">Stake Liquidity Pool (LP)</div>
           <div className="nomber bold text_l">{highestApr}%</div>
         </div>
-        <a href="/swap" className="btn_s btn_gr bold">
+        <a href="/farms" className="btn_s btn_gr bold">
           Farms
         </a>
       </div>
@@ -143,7 +150,7 @@ const StatusArea: FC = () => {
           <h3>Pools</h3>
           <div className="text">Just stake some tokens to earn.</div>
         </div>
-        <a href="/swap" className="btn_s btn_gr bold">
+        <a href="/pools" className="btn_s btn_gr bold">
           Pools
         </a>
       </div>
