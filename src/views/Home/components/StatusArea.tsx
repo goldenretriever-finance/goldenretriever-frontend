@@ -9,19 +9,20 @@ import { fetchFarmsPublicDataAsync, nonArchivedFarms } from '../../../state/farm
 import { useGetStats } from '../../../hooks/api'
 
 const Area = styled.div`
-  .box_wrap {
-    text-align: center;
-    width: 19%;
-    background-color: #0c0026;
-    border-radius: 6px;
-    padding: 10px;
-    box-shadow: 0 0 16px rgb(7 0 27 / 20%);
-  }
-  ${({ theme }) => theme.mediaQueries.xs} {
     .box_wrap {
-      width: 100%;
-      background-color: #501dc0;
-      margin-bottom: 10px;
+     text-align: center;
+     width: 100%;
+     background-color: #501dc0;
+     border-radius: 6px;
+     padding: 10px;
+     margin-bottom: 10px;
+     box-shadow: 0 0 16px rgb(7 0 27 / 20%);
+     }
+  }
+  ${({ theme }) => theme.mediaQueries.sm} {   
+      .box_wrap {
+        width: 19%;
+        background-color: #0c0026;
       }
     }
   }
@@ -46,6 +47,7 @@ const Area = styled.div`
     .top_area {
       mmin-height: auto;
     }
+  }
   }
 
   h3 {
