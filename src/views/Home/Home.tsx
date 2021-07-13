@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import Page from 'components/layout/Page'
 import StatusArea from './components/StatusArea'
-import { useTranslation } from 'contexts/Localization'
 
 const AnimeBg = styled.div`
   @keyframes bgiLoop {
@@ -267,7 +266,6 @@ const Member = styled.div`
 `
 
 const Home: React.FC = () => {
-  const { t } = useTranslation()
   return (
     <Page>
       <AnimeBg>
@@ -278,7 +276,7 @@ const Home: React.FC = () => {
                 <img src="/images/well.png" alt="Golden retriever finance" />
               </div>
               <div className="text_l">
-               {t('The Golden retriever platform is a community-supported platform. People all over the world will love Golden Retriever!')}
+               The Golden retriever platform is a community-supported platform. People all over the world will love Golden Retriever!
               </div>
               <div className="sns_links">
                 <a href="/#" className="sns_link" target="_blank">

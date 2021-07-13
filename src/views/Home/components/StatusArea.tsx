@@ -7,7 +7,6 @@ import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
 import { useAppDispatch } from '../../../state'
 import { fetchFarmsPublicDataAsync, nonArchivedFarms } from '../../../state/farms'
 import { useGetStats } from '../../../hooks/api'
-import { useTranslation } from 'contexts/Localization'
 
 const Area = styled.div`
   .box_wrap {
@@ -47,7 +46,6 @@ const Area = styled.div`
 const StatusArea: FC = () => {
   const [, setIsFetchingFarmData] = useState(true)
   const { data: farmsLP } = useFarms()
-  const { t } = useTranslation()
   const cakePrice = usePriceCakeBusd()
   const dispatch = useAppDispatch()
 
