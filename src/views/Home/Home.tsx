@@ -21,7 +21,7 @@ const AnimeBg = styled.div`
 
 const Container = styled.div`
   max-width: 1080px;
-  width: 94%;
+  width: 90%;
   margin: 0 auto;
   padding: 62px 0;
 
@@ -29,6 +29,10 @@ const Container = styled.div`
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      display: block;
+    }
   }
 
   .text_l {
@@ -101,6 +105,10 @@ const Section2 = styled.div`
 
   .txtbox {
     width: 50%;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 100%;
+    }
   }
 `
 
@@ -111,6 +119,10 @@ const Section3 = styled.div`
 
   .txtbox {
     width: 50%;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 100%;
+    }
   }
   img {
     max-height: 375px;
@@ -126,6 +138,10 @@ const Section4 = styled.div`
 
   .txtbox {
     width: 50%;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 100%;
+    }
   }
 
   img {
