@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Page from 'components/layout/Page'
 import StatusArea from './components/StatusArea'
+import { useTranslation } from 'contexts/Localization'
 
 const AnimeBg = styled.div`
   @keyframes bgiLoop {
@@ -44,7 +45,7 @@ const Container = styled.div`
     width: 50%;
   }
 
-  ${({ theme }) => theme.mediaQueries.sm} {
+  ${({ theme }) => theme.mediaQueries.xs} {
     .flex {
       display: block;
     }
@@ -108,7 +109,7 @@ const Section2 = styled.div`
   .txtbox {
     width: 50%;
 
-    ${({ theme }) => theme.mediaQueries.sm} {
+    ${({ theme }) => theme.mediaQueries.xs} {
       width: 100%;
     }
   }
@@ -122,7 +123,7 @@ const Section3 = styled.div`
   .txtbox {
     width: 50%;
 
-    ${({ theme }) => theme.mediaQueries.sm} {
+    ${({ theme }) => theme.mediaQueries.xs} {
       width: 100%;
     }
   }
@@ -141,7 +142,7 @@ const Section4 = styled.div`
   .txtbox {
     width: 50%;
 
-    ${({ theme }) => theme.mediaQueries.sm} {
+    ${({ theme }) => theme.mediaQueries.xs} {
       width: 100%;
     }
   }
@@ -266,6 +267,7 @@ const Member = styled.div`
 `
 
 const Home: React.FC = () => {
+  const { t } = useTranslation()
   return (
     <Page>
       <AnimeBg>
