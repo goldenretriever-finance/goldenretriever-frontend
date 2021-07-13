@@ -134,9 +134,12 @@ const Section2 = styled.div`
   }
 }
 
-  .txt_left {
+.txt_left {
+  text-align: center;
+  ${({ theme }) => theme.mediaQueries.sm} {
     text-align: left;
-  }
+   }
+}
 
   .txtbox {
     width: 100%;
@@ -198,7 +201,10 @@ const Section4 = styled.div`
    }
   }
   .txt_left {
-    text-align: left;
+    text-align: center;
+    ${({ theme }) => theme.mediaQueries.sm} {
+      text-align: left;
+     }
   }
 
   .txtbox {
