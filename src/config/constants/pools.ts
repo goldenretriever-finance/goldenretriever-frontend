@@ -406,7 +406,6 @@ const pools: PoolConfig[] = [
     sortOrder: 999,
     isFinished: true,
     tokenPerBlock: '0.00868',
-    isFinished: true,
   },
   {
     sousId: 159,
