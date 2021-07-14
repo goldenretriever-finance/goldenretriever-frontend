@@ -4,7 +4,7 @@ import { PoolConfig, PoolCategory } from './types'
 const pools: PoolConfig[] = [
   {
     sousId: 0,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.cake,
     contractAddress: {
       97: '0x0e162D6526512C98982068b7E1D081A0Ce3E6b37',
@@ -14,11 +14,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '10',
     sortOrder: 1,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 187,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.waultx,
     contractAddress: {
       97: '',
@@ -31,7 +31,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 186,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.wex,
     contractAddress: {
       97: '',
@@ -44,7 +44,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 185,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.form,
     contractAddress: {
       97: '',
@@ -57,7 +57,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 184,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.orbs,
     contractAddress: {
       97: '',
@@ -70,7 +70,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 183,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.$dg,
     contractAddress: {
       97: '',
@@ -83,7 +83,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 182,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.woo,
     contractAddress: {
       97: '',
@@ -96,7 +96,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 181,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.woo,
     contractAddress: {
       97: '',
@@ -109,7 +109,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 180,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.htb,
     contractAddress: {
       97: '',
@@ -122,7 +122,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 179,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.jgn,
     contractAddress: {
       97: '',
@@ -135,7 +135,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 178,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.dft,
     contractAddress: {
       97: '',
@@ -148,7 +148,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 177,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hai,
     contractAddress: {
       97: '',
@@ -161,7 +161,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 176,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.o3,
     contractAddress: {
       97: '',
@@ -174,7 +174,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 175,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ampl,
     contractAddress: {
       97: '',
@@ -187,7 +187,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 174,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.oddz,
     contractAddress: {
       97: '',
@@ -200,7 +200,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 173,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bondly,
     contractAddress: {
       97: '',
@@ -213,7 +213,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 172,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.marsh,
     contractAddress: {
       97: '',
@@ -226,7 +226,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 171,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.mbox,
     contractAddress: {
       97: '',
@@ -239,7 +239,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 170,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ata,
     contractAddress: {
       97: '',
@@ -252,7 +252,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 169,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.mx,
     contractAddress: {
       97: '',
@@ -265,7 +265,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 168,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bcfx,
     contractAddress: {
       97: '',
@@ -278,7 +278,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 167,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.qkc,
     contractAddress: {
       97: '',
@@ -291,7 +291,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 166,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ktn,
     contractAddress: {
       97: '',
@@ -304,7 +304,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 165,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.mtrg,
     contractAddress: {
       97: '',
@@ -317,7 +317,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 164,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.tusd,
     contractAddress: {
       97: '',
@@ -330,7 +330,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 163,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.vrt,
     contractAddress: {
       97: '',
@@ -343,7 +343,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 162,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.kalm,
     contractAddress: {
       97: '',
@@ -356,7 +356,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 161,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ez,
     contractAddress: {
       97: '',
@@ -369,7 +369,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 160,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.kalm,
     contractAddress: {
       97: '',
@@ -383,7 +383,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 159,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.popen,
     contractAddress: {
       97: '',
@@ -396,7 +396,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 158,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.lien,
     contractAddress: {
       97: '',
@@ -409,7 +409,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 157,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.well,
     contractAddress: {
       97: '',
@@ -422,7 +422,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 156,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.deri,
     contractAddress: {
       97: '',
@@ -435,7 +435,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 155,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.chr,
     contractAddress: {
       97: '',
@@ -448,7 +448,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 154,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.cyc,
     contractAddress: {
       97: '',
@@ -461,7 +461,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 153,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.xend,
     contractAddress: {
       97: '',
@@ -471,11 +471,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.31828',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 152,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hget,
     contractAddress: {
       97: '',
@@ -485,11 +485,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.03553',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 151,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hotcross,
     contractAddress: {
       97: '',
@@ -499,11 +499,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '3.4722',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 150,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.rfox,
     contractAddress: {
       97: '',
@@ -513,11 +513,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '1.7361',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 149,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.wmass,
     contractAddress: {
       97: '',
@@ -527,11 +527,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.24942',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 148,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ubxt,
     contractAddress: {
       97: '',
@@ -541,11 +541,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '2.4074',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 147,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.btr,
     contractAddress: {
       97: '',
@@ -555,11 +555,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '2.8935',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 146,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.τdoge,
     contractAddress: {
       97: '',
@@ -569,11 +569,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.868',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 145,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.pmon,
     contractAddress: {
       97: '',
@@ -583,11 +583,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.01261',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 144,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.one,
     contractAddress: {
       97: '',
@@ -597,11 +597,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '57.87',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 143,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.fine,
     contractAddress: {
       97: '',
@@ -611,7 +611,7 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.1342',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 142,
@@ -625,11 +625,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.01388',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 141,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bmxx,
     contractAddress: {
       97: '',
@@ -639,11 +639,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.01331',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 140,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.oin,
     contractAddress: {
       97: '',
@@ -653,11 +653,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.3472',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 139,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hyfi,
     contractAddress: {
       97: '',
@@ -667,11 +667,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '2.8935',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 138,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.kun,
     contractAddress: {
       97: '',
@@ -681,11 +681,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.23148',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 137,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.math,
     contractAddress: {
       97: '',
@@ -695,11 +695,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.15798',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 136,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ust,
     contractAddress: {
       97: '',
@@ -709,11 +709,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.17361',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 135,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.win,
     contractAddress: {
       97: '',
@@ -723,11 +723,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '462.96',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 134,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.trx,
     contractAddress: {
       97: '',
@@ -737,11 +737,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '4.0509',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 133,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.btt,
     contractAddress: {
       97: '',
@@ -751,11 +751,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '79.86',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 132,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.lmt,
     contractAddress: {
       97: '',
@@ -765,11 +765,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.66145',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 131,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.pnt,
     contractAddress: {
       97: '',
@@ -779,11 +779,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.09548',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 130,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.xmark,
     contractAddress: {
       97: '',
@@ -793,11 +793,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.0298',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 129,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ramp,
     contractAddress: {
       97: '',
@@ -811,7 +811,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 128,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hakka,
     contractAddress: {
       97: '',
@@ -821,11 +821,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '3.4722',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 127,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.pbtc,
     contractAddress: {
       97: '',
@@ -835,11 +835,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.0000031',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 126,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.lien,
     contractAddress: {
       97: '',
@@ -849,11 +849,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.003472',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 125,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bbadger,
     contractAddress: {
       97: '',
@@ -863,11 +863,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.00265278',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 124,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bdigg,
     contractAddress: {
       97: '',
@@ -877,11 +877,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.00000403',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 123,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bondly,
     contractAddress: {
       97: '',
@@ -891,11 +891,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.4629',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 122,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.xed,
     contractAddress: {
       97: '',
@@ -905,11 +905,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.3472',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 121,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.cgg,
     contractAddress: {
       97: '',
@@ -919,11 +919,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.10918',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 120,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.perl,
     contractAddress: {
       97: '',
@@ -933,11 +933,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '1.1574',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 119,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.arpa,
     contractAddress: {
       97: '',
@@ -947,11 +947,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.949',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 118,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.oddz,
     contractAddress: {
       97: '',
@@ -961,11 +961,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.11284',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 117,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.dexe,
     contractAddress: {
       97: '',
@@ -979,7 +979,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 116,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.dfd,
     contractAddress: {
       97: '',
@@ -989,11 +989,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.46296',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 115,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.alpaca,
     contractAddress: {
       97: '',
@@ -1003,11 +1003,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.22743',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 114,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.τbtc,
     contractAddress: {
       97: '',
@@ -1017,11 +1017,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     sortOrder: 999,
     tokenPerBlock: '0.00000608',
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 113,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.τbtc,
     contractAddress: {
       97: '',
@@ -1035,7 +1035,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 112,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.swingby,
     contractAddress: {
       97: '',
@@ -1048,7 +1048,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 111,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.xed,
     contractAddress: {
       97: '',
@@ -1063,7 +1063,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 110,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hakka,
     contractAddress: {
       97: '',
@@ -1078,7 +1078,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 109,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.cgg,
     contractAddress: {
       97: '',
@@ -1093,7 +1093,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 108,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.mix,
     contractAddress: {
       97: '',
@@ -1106,7 +1106,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 107,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.suter,
     contractAddress: {
       97: '',
@@ -1119,7 +1119,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 106,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.broobee,
     contractAddress: {
       97: '',
@@ -1132,7 +1132,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 105,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hzn,
     contractAddress: {
       97: '',
@@ -1145,7 +1145,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 104,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.alpa,
     contractAddress: {
       97: '',
@@ -1158,7 +1158,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 103,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.perl,
     contractAddress: {
       97: '',
@@ -1173,7 +1173,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 102,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.tlm,
     contractAddress: {
       97: '',
@@ -1186,7 +1186,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 101,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.jgn,
     contractAddress: {
       97: '',
@@ -1199,7 +1199,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 100,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.eps,
     contractAddress: {
       97: '',
@@ -1212,7 +1212,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 99,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.arpa,
     contractAddress: {
       97: '',
@@ -1227,7 +1227,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 98,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.itam,
     contractAddress: {
       97: '',
@@ -1240,7 +1240,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 97,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bondly,
     contractAddress: {
       97: '',
@@ -1255,7 +1255,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 96,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.tko,
     contractAddress: {
       97: '',
@@ -1268,7 +1268,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 95,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.apys,
     contractAddress: {
       97: '',
@@ -1281,7 +1281,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 94,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hoo,
     contractAddress: {
       97: '',
@@ -1294,7 +1294,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 93,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.oddz,
     contractAddress: {
       97: '',
@@ -1309,7 +1309,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 92,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.easy,
     contractAddress: {
       97: '',
@@ -1322,7 +1322,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 91,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.nrv,
     contractAddress: {
       97: '',
@@ -1335,7 +1335,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 90,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.dego,
     contractAddress: {
       97: '',
@@ -1348,7 +1348,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 89,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.gum,
     contractAddress: {
       97: '',
@@ -1361,7 +1361,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 88,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.pbtc,
     contractAddress: {
       97: '',
@@ -1376,7 +1376,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 87,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.dft,
     contractAddress: {
       97: '',
@@ -1389,7 +1389,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 86,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.swth,
     contractAddress: {
       97: '',
@@ -1402,7 +1402,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 85,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.lien,
     contractAddress: {
       97: '',
@@ -1417,7 +1417,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 84,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.zil,
     contractAddress: {
       97: '',
@@ -1430,7 +1430,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 83,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.pcws,
     contractAddress: {
       97: '',
@@ -1443,7 +1443,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 82,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bbadger,
     contractAddress: {
       97: '',
@@ -1458,7 +1458,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 81,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bdigg,
     contractAddress: {
       97: '',
@@ -1473,7 +1473,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 80,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.lto,
     contractAddress: {
       97: '',
@@ -1486,7 +1486,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 79,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.mir,
     contractAddress: {
       97: '',
@@ -1496,11 +1496,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.01273',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 78,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.mir,
     contractAddress: {
       97: '',
@@ -1515,7 +1515,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 77,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.trade,
     contractAddress: {
       97: '',
@@ -1525,11 +1525,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.4484',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 76,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.dusk,
     contractAddress: {
       97: '',
@@ -1539,11 +1539,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.4629',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 75,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bifi,
     contractAddress: {
       97: '',
@@ -1553,11 +1553,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.00007234',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 74,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.txl,
     contractAddress: {
       97: '',
@@ -1567,11 +1567,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.434027',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 73,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.cos,
     contractAddress: {
       97: '',
@@ -1581,11 +1581,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '5.787',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 72,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bunny,
     contractAddress: {
       97: '',
@@ -1595,11 +1595,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.00289',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 71,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.alice,
     contractAddress: {
       97: '',
@@ -1609,11 +1609,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.14467',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 70,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.for,
     contractAddress: {
       97: '',
@@ -1623,11 +1623,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '2.8935',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 69,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bux,
     contractAddress: {
       97: '',
@@ -1637,11 +1637,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.5787',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 68,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.nuls,
     contractAddress: {
       97: '',
@@ -1651,11 +1651,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.0868',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 67,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.belt,
     contractAddress: {
       97: '',
@@ -1669,7 +1669,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 66,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ramp,
     contractAddress: {
       97: '',
@@ -1684,7 +1684,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 65,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bfi,
     contractAddress: {
       97: '',
@@ -1694,11 +1694,11 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.0001157',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 64,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.dexe,
     contractAddress: {
       97: '',
@@ -1713,7 +1713,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 63,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bel,
     contractAddress: {
       97: '',
@@ -1723,7 +1723,7 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.0549',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 62,
@@ -1741,7 +1741,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 61,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.tpt,
     contractAddress: {
       97: '',
@@ -1755,7 +1755,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 60,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.watch,
     contractAddress: {
       97: '',
@@ -1769,7 +1769,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 59,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.xmark,
     contractAddress: {
       97: '',
@@ -1783,7 +1783,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 58,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bmxx,
     contractAddress: {
       97: '',
@@ -1797,7 +1797,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 57,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.iotx,
     contractAddress: {
       97: '',
@@ -1811,7 +1811,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 56,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bor,
     contractAddress: {
       97: '',
@@ -1825,7 +1825,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 55,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bopen,
     contractAddress: {
       97: '',
@@ -1853,7 +1853,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 53,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.dodo,
     contractAddress: {
       97: '',
@@ -1867,7 +1867,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 52,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.swingby,
     contractAddress: {
       97: '',
@@ -1881,7 +1881,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 51,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bry,
     contractAddress: {
       97: '',
@@ -1895,7 +1895,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 50,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.zee,
     contractAddress: {
       97: '',
@@ -1909,7 +1909,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 49,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.swgb,
     contractAddress: {
       97: '',
@@ -1951,7 +1951,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 46,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.sfp,
     contractAddress: {
       97: '',
@@ -1965,7 +1965,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 45,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.lina,
     contractAddress: {
       97: '',
@@ -1979,7 +1979,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 44,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.lina,
     contractAddress: {
       97: '',
@@ -1993,7 +1993,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 43,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.lit,
     contractAddress: {
       97: '',
@@ -2007,7 +2007,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 42,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hget,
     contractAddress: {
       97: '',
@@ -2021,7 +2021,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 41,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bdo,
     contractAddress: {
       97: '',
@@ -2035,7 +2035,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 40,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.egld,
     contractAddress: {
       97: '',
@@ -2049,7 +2049,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 39,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ust,
     contractAddress: {
       97: '',
@@ -2063,7 +2063,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 38,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.wsote,
     contractAddress: {
       97: '',
@@ -2077,7 +2077,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 37,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.front,
     contractAddress: {
       97: '',
@@ -2091,7 +2091,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 36,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.helmet,
     contractAddress: {
       97: '',
@@ -2105,7 +2105,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 35,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.btcst,
     contractAddress: {
       97: '',
@@ -2119,7 +2119,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 34,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bscx,
     contractAddress: {
       97: '',
@@ -2133,7 +2133,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 33,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ten,
     contractAddress: {
       97: '',
@@ -2147,7 +2147,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 32,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.balbt,
     contractAddress: {
       97: '',
@@ -2161,7 +2161,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 31,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.asr,
     contractAddress: {
       97: '',
@@ -2175,7 +2175,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 30,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.atm,
     contractAddress: {
       97: '',
@@ -2189,7 +2189,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 29,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.og,
     contractAddress: {
       97: '',
@@ -2203,7 +2203,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 28,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.reef,
     contractAddress: {
       97: '',
@@ -2217,7 +2217,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 27,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ditto,
     contractAddress: {
       97: '',
@@ -2227,7 +2227,7 @@ const pools: PoolConfig[] = [
     harvest: true,
     tokenPerBlock: '0.01157',
     sortOrder: 999,
-    isFinished: false,
+    isFinished: true,
   },
   {
     sousId: 26,
@@ -2245,7 +2245,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 24,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.juv,
     contractAddress: {
       97: '',
@@ -2259,7 +2259,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 25,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.psg,
     contractAddress: {
       97: '',
@@ -2273,7 +2273,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 21,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.vai,
     contractAddress: {
       97: '',
@@ -2301,7 +2301,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 19,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.bnb,
     contractAddress: {
       97: '',
@@ -2315,7 +2315,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 18,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.blink,
     contractAddress: {
       97: '',
@@ -2329,7 +2329,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 17,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.blink,
     contractAddress: {
       97: '',
@@ -2344,7 +2344,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 16,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.unfi,
     contractAddress: {
       97: '',
@@ -2358,7 +2358,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 15,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.twt,
     contractAddress: {
       97: '',
@@ -2372,7 +2372,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 14,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.hard,
     contractAddress: {
       97: '',
@@ -2386,7 +2386,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 13,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.broobee,
     contractAddress: {
       97: '',
@@ -2400,7 +2400,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 12,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.stax,
     contractAddress: {
       97: '0x0e162D6526512C98982068b7E1D081A0Ce3E6b37',
@@ -2414,7 +2414,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 11,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.nar,
     contractAddress: {
       97: '0x0e162D6526512C98982068b7E1D081A0Ce3E6b37',
@@ -2428,7 +2428,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 10,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.nya,
     contractAddress: {
       97: '0x0e162D6526512C98982068b7E1D081A0Ce3E6b37',
@@ -2442,7 +2442,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 9,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.ctk,
     contractAddress: {
       97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',
@@ -2456,7 +2456,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 8,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.twt,
     contractAddress: {
       97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',
@@ -2470,7 +2470,7 @@ const pools: PoolConfig[] = [
   },
   {
     sousId: 7,
-    stakingToken: tokens.cake,
+    stakingToken: tokens.inu,
     earningToken: tokens.inj,
     contractAddress: {
       97: '0xAfd61Dc94f11A70Ae110dC0E0F2061Af5633061A',

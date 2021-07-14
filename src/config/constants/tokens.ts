@@ -3,14 +3,14 @@ const tokens = {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
   },
-  cake: {
+  inu: {
     symbol: 'CAKE',
     address: {
       56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
       97: '0x40C5B636E3a51CDda8300f7edcF89f58cd2cF250',
     },
     decimals: 18,
-    projectLink: 'https://pancakeswap.finance/',
+    projectLink: 'https://goldenretriever-finance.com/',
   },
   form: {
     symbol: 'FORM',
