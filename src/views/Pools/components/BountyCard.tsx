@@ -29,6 +29,10 @@ const StyledCard = styled(Card)`
     min-width: 240px;
   }
 
+  > div {
+    padding: 12px 24px;
+}
+
   h2{
     div{
       color: #ffffff;
