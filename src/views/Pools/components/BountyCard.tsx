@@ -23,8 +23,16 @@ import BountyModal from './BountyModal'
 const StyledCard = styled(Card)`
   width: 100%;
   flex: 1;
+  border-radius: 8px;
+  background-color: rgb(0 0 0);
   ${({ theme }) => theme.mediaQueries.sm} {
     min-width: 240px;
+  }
+
+  h2{
+    div{
+      color: #ffffff;
+    }
   }
 `
 
