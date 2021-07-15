@@ -2,12 +2,13 @@ import React, { FC, useEffect, useMemo, useState } from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
 import max from 'lodash/max'
+import { useTranslation } from 'contexts/Localization'
 import { getFarmApr } from '../../../utils/apr'
 import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
 import { useAppDispatch } from '../../../state'
 import { fetchFarmsPublicDataAsync, nonArchivedFarms } from '../../../state/farms'
 import { useGetStats } from '../../../hooks/api'
-import { useTranslation } from 'contexts/Localization'
+
 
 const Area = styled.div`
 :after {
