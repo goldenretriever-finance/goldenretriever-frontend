@@ -4,7 +4,7 @@ const tokens = {
     projectLink: 'https://www.binance.com/',
   },
   inu: {
-    symbol: 'CAKE',
+    symbol: 'INU',
     address: {
       56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
       97: '0x40C5B636E3a51CDda8300f7edcF89f58cd2cF250',
