@@ -110,19 +110,22 @@ const NavList = styled.div`
     opacity: 1;
     font-weight: bold;
     border-image: none;
-    ${({theme}) => theme.mediaQueries.xs} {
+    ${({theme}) => theme.mediaQueries.sm} {
       border-image: linear-gradient(90deg, #0947e7, #cf00f0);
       border-image-slice: 1;
     }
   }
 
   a > img {
-    width: 18px;
+    width: 28px;
+    ${({theme}) => theme.mediaQueries.sm} {
+      width: 18px;
+    }
   }
 `
 
 const MenuButton = styled.img`
-  ${({theme}) => theme.mediaQueries.xs} {
+  ${({theme}) => theme.mediaQueries.sm} {
     display: none;
   }
 `
@@ -132,7 +135,7 @@ const CloseButton = styled.img`
   top: 20px;
   left: 20px;
   cursor: pointer;
-  ${({theme}) => theme.mediaQueries.xs} {
+  ${({theme}) => theme.mediaQueries.sm} {
     display: none;
   }
 `
