@@ -460,7 +460,7 @@ const tokens = {
       97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
     },
     decimals: 18,
-    projectLink: 'https://pancakeswap.finance/',
+    projectLink: 'https://goldenretriever-finance.com/',
   },
   blink: {
     symbol: 'BLINK',
@@ -604,7 +604,7 @@ const tokens = {
       97: '0xf01CF6380d4e07612e807d419AAf2334a0853E10',
     },
     decimals: 18,
-    projectLink: 'https://pancakeswap.finance/',
+    projectLink: 'https://goldenretriever-finance.com/',
   },
   bifi: {
     symbol: 'BIFI',
