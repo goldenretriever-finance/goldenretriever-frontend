@@ -7,6 +7,7 @@ import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
 import { useAppDispatch } from '../../../state'
 import { fetchFarmsPublicDataAsync, nonArchivedFarms } from '../../../state/farms'
 import { useGetStats } from '../../../hooks/api'
+import { useTranslation } from 'contexts/Localization'
 
 const Area = styled.div`
 :after {
@@ -108,6 +109,7 @@ const StatusArea: FC = () => {
   const { data: farmsLP } = useFarms()
   const cakePrice = usePriceCakeBusd()
   const dispatch = useAppDispatch()
+  const { t } = useTranslation()
 
   useEffect(() => {
     const fetchFarmData = async () => {
@@ -144,7 +146,7 @@ const StatusArea: FC = () => {
     <Area className="flex mt50">
       <div className="box_wrap txt_center">
         <div className="top_area">
-          <h3>Exchange</h3>
+          <h3>{t('Exchange')}</h3>
           <div className="text">Exchange tokens</div>
         </div>
         <a href="https://exchange.goldenretriever-finance.com/#/swap" className="btn_s btn_gr bold">
