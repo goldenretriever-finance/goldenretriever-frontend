@@ -147,9 +147,9 @@ const ExpandedFooter: React.FC<ExpandedFooterProps> = ({ pool, account }) => {
         </Flex>
       )}
       <Flex mb="2px" justifyContent="flex-end">
-       // <LinkExternal href={`https://pancakeswap.info/token/${getAddress(earningToken.address)}`} bold={false} small>
-       //   {t('Info site')}
-       // </LinkExternal>
+        <LinkExternal href={`https://pancakeswap.info/token/${getAddress(earningToken.address)}`} bold={false} small>
+          {t('Info site')}
+        </LinkExternal>
       </Flex>
       <Flex mb="2px" justifyContent="flex-end">
         <LinkExternal href={earningToken.projectLink} bold={false} small>
