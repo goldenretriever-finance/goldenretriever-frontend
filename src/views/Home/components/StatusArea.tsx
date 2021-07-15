@@ -148,7 +148,7 @@ const StatusArea: FC = () => {
       <div className="box_wrap txt_center">
         <div className="top_area">
           <h3>{t('Exchange')}</h3>
-          <div className="text">Exchange tokens</div>
+          <div className="text">{t('Exchange tokens')}</div>
         </div>
         <a href="https://exchange.goldenretriever-finance.com/#/swap" className="btn_s btn_gr bold">
           Swap
@@ -156,8 +156,8 @@ const StatusArea: FC = () => {
       </div>
       <div className="box_wrap txt_center">
         <div className="top_area">
-          <h3>Liquidity</h3>
-          <div className="text">Make LP</div>
+          <h3>{t('Liquidity')}</h3>
+          <div className="text">{t('Make LP')}</div>
         </div>
         <a href="https://exchange.goldenretriever-finance.com/#/pool" className="btn_s btn_gr bold">
           Add LP
@@ -165,8 +165,8 @@ const StatusArea: FC = () => {
       </div>
       <div className="box_wrap txt_center">
         <div className="top_area">
-          <h3>Farms</h3>
-          <div className="text">Stake Liquidity Pool (LP)</div>
+          <h3>{t('Farms')}</h3>
+          <div className="text">{t('Stake Liquidity Pool (LP)')}</div>
           <div className="nomber bold text_l">{highestApr}%</div>
         </div>
         <a href="/farms" className="btn_s btn_gr bold">
@@ -175,8 +175,8 @@ const StatusArea: FC = () => {
       </div>
       <div className="box_wrap txt_center">
         <div className="top_area">
-          <h3>Pools</h3>
-          <div className="text">Just stake some tokens to earn.</div>
+          <h3>{t('Pools')}</h3>
+          <div className="text">{t('Just stake some tokens to earn.')}</div>
         </div>
         <a href="/pools" className="btn_s btn_gr bold">
           Pools
@@ -185,7 +185,7 @@ const StatusArea: FC = () => {
       <div className="box_wrap txt_center">
         <div className="top_area">
           <h3>TVL</h3>
-          <div className="text">Across all LPs and Golden Retriever Pools</div>
+          <div className="text">{t('Across all LPs and Golden Retriever Pools')}</div>
         </div>
         <div className="nomber bold text_l">${tvl}</div>
       </div>
