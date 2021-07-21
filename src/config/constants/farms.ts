@@ -24,6 +24,7 @@ const farms: FarmConfig[] = [
     },
     token: tokens.inu,
     quoteToken: tokens.wbnb,
+    isFinished: true,
   },
 ]
 

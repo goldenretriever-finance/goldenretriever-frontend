@@ -8,9 +8,7 @@ interface ApprovalActionProps {
   isLoading?: boolean
 }
 
-const EnableWrapper = styled.div`
-  border-radius: 6px;
-  button {
+const EnableWrapper = styled.button`
     position: relative;
     width: auto;
     background-color: rgba(0, 0, 0, 0.13);
@@ -40,7 +38,6 @@ const EnableWrapper = styled.div`
       bottom: 0;
       background: linear-gradient(to right, #0947e7 0%, #cf00f0 100%);
     }
-  }
 `
 
 
