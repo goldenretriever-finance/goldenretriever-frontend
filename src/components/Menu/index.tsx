@@ -77,7 +77,7 @@ const NavList = styled.div`
 
   a {
     ${({theme}) => theme.mediaQueries.sm} {
-      width: 100%;
+      width: 124px;
       margin-bottom: 0;
       font-weight: 100;
       color: #ffffff;
