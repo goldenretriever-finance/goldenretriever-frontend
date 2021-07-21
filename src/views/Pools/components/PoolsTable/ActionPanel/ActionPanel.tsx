@@ -243,7 +243,7 @@ const ActionPanel: React.FC<ActionPanelProps> = ({ account, pool, userDataLoaded
         {shouldShowBlockCountdown && blocksRow}
         <Flex mb="8px" justifyContent={['flex-end', 'flex-end', 'flex-start']}>
            <StyledLinkExternal href={`https://pancakeswap.info/token/${getAddress(earningToken.address)}`} bold={false}>
-            {t('Info site')}
+            {t(' ')}
           </StyledLinkExternal>
         </Flex>
         <Flex mb="8px" justifyContent={['flex-end', 'flex-end', 'flex-start']}>
