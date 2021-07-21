@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import { languageList } from 'config/localization/languages'
-import { usePriceCakeBusd } from 'state/hooks'
+
 
 const StyledFooter = styled.div`
   position: fixed;
@@ -18,20 +18,6 @@ const StyledFooter = styled.div`
   }
 `
 
-const PriceWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  img {
-    width: 20px;
-    margin-right: 8px;
-  }
-  p {
-    font-weight: bold;
-    font-size: 14px;
-  }
-`
 const LanguageListModal = styled.div`
   width: 210px;
   height: 8em;
@@ -105,7 +91,6 @@ const TwitterLink = styled.a`
 `
 
 const Footer = () => {
-  const cakePriceUsd = usePriceCakeBusd()
   const openTelegram = (): void => {
     // eslint-disable-next-line no-console
     console.log('国を選択するポップアップ作成→telegramに遷移処理追加')
@@ -114,10 +99,6 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      <PriceWrapper>
-        <img src="/images/footer_dog_icon.png" alt="Goldenretriever" />
-        <p>${cakePriceUsd.toNumber().toFixed(3)}</p>
-      </PriceWrapper>
       <LanguageSetting>
         {/* FIXME 言語アイコン切り出せるようになったら追加 */}
         <p>{currentLanguage.code.toUpperCase()}</p>
