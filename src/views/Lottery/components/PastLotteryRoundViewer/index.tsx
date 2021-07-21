@@ -6,7 +6,6 @@ import { useTranslation } from 'contexts/Localization'
 import useGetRecentLotteryRoundData from 'hooks/useGetRecentLotteryRoundData'
 import PastLotterySearcher from './PastLotterySearcher'
 import PastRoundCard from './PastRoundCard'
-import Loading from '../Loading'
 
 const Wrapper = styled.div`
   display: flex;
@@ -80,9 +79,7 @@ const PastLotteryRoundViewer = () => {
       <PastLotterySearcher initialLotteryNumber={mostRecentLotteryNumber} onSubmit={handleSubmit} />
       {!isInitialized || isLoading ? (
         <Card>
-          <StyledCardBody>
-            <Loading />
-          </StyledCardBody>
+          <StyledCardBody />
         </Card>
       ) : (
         <PastRoundCard error={error} data={roundData} />

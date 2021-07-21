@@ -4,7 +4,6 @@ import { Flex, Text } from '@pancakeswap/uikit'
 import PastLotteryDataContext from 'contexts/PastLotteryDataContext'
 import { useTranslation } from 'contexts/Localization'
 import useTheme from 'hooks/useTheme'
-import Loading from '../Loading'
 
 const Line = lazy(() => import('./LineChartWrapper'))
 const Bar = lazy(() => import('./BarChartWrapper'))
@@ -150,9 +149,7 @@ const HistoryChart: React.FC<HistoryChartProps> = ({ showLast }) => {
       {!historyError && historyData.length > 1 ? (
         <Suspense
           fallback={
-            <Flex justifyContent="center">
-              <Loading />
-            </Flex>
+            <Flex justifyContent="center" />
           }
         >
           {showLast === 50 || showLast === 100 ? (
@@ -162,9 +159,7 @@ const HistoryChart: React.FC<HistoryChartProps> = ({ showLast }) => {
           )}
         </Suspense>
       ) : (
-        <InnerWrapper>
-          <Loading />
-        </InnerWrapper>
+        <InnerWrapper />
       )}
     </>
   )
