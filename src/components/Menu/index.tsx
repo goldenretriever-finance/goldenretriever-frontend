@@ -18,6 +18,7 @@ const Nav = styled.nav`
   padding: 0 14px 0 18px;
   border-bottom: 1px solid #422794;
   align-items: center;
+  background-color: rgba(13,9,84,0.91);
 
   a.logo {
     display: block;
