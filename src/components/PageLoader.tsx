@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import Page from './layout/Page'
 
 const Wrapper = styled(Page)`
@@ -12,7 +11,6 @@ const Wrapper = styled(Page)`
 const PageLoader: React.FC = () => {
   return (
     <Wrapper>
-
     </Wrapper>
   )
 }
