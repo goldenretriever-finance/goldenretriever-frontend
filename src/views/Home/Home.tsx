@@ -416,10 +416,10 @@ const Home: React.FC = () => {
                 {t('The Golden retriever platform is a community-supported platform. People all over the world will love Golden Retriever!')}
               </div>
               <div className="sns_links">
-                <a href="/#" className="sns_link" target="_blank">
+                <a href="https://t.me/joinchat/o98mgf0Nqdg5ZGZl" className="sns_link" target="_blank">
                   <img src="/images/tellegram.png" alt="telegram" />
                 </a>
-                <a href="/#" className="sns_link" target="_blank">
+                <a href="https://twitter.com/retrievercoin" className="sns_link" target="_blank">
                   <img src="/images/twitter.png" alt="telegram" />
                 </a>
               </div>

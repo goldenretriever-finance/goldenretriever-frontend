@@ -109,10 +109,10 @@ const Footer = () => {
         </LanguageListModal>
       </LanguageSetting>
       <SocialWrapper>
-        <TelegramButton onClick={() => openTelegram()}>
+      <TelegramButton href="https://t.me/joinchat/o98mgf0Nqdg5ZGZl" target="_blank" rel="noreferrer">
           <img src="/images/footer_telegram.png" alt="telegram" />
         </TelegramButton>
-        <TwitterLink href="https://twitter.com/" target="_blank" rel="noreferrer">
+        <TwitterLink href="https://twitter.com/retrievercoin　" target="_blank" rel="noreferrer">
           <img src="/images/footer_twitter.png" alt="telegram" />
         </TwitterLink>
       </SocialWrapper>
