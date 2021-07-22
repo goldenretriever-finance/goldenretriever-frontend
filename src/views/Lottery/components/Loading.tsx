@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Loading: React.FC = () => <StyledLoading />
 
 const StyledLoading = styled.div`
+  display: none;
   border: 8px solid #f3f3f3;
   border-radius: 50%;
   border-top: 8px solid #ddd;
