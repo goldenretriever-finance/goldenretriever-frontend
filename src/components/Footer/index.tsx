@@ -64,7 +64,7 @@ const SocialWrapper = styled.div`
   justify-content: center;
   align-items: center;
 `
-const TelegramButton = styled.div`
+const TelegramLink = styled.a`
   width: 26px;
   height: 26px;
   background: linear-gradient(211.74deg, #34b0df -4.14%, #1e88d3 90.25%);
@@ -109,10 +109,10 @@ const Footer = () => {
         </LanguageListModal>
       </LanguageSetting>
       <SocialWrapper>
-      <TelegramButton href="https://t.me/joinchat/o98mgf0Nqdg5ZGZl" target="_blank" rel="noreferrer">
+      <TelegramLink href="https://t.me/joinchat/o98mgf0Nqdg5ZGZl" target="_blank" rel="noreferrer">
           <img src="/images/footer_telegram.png" alt="telegram" />
-        </TelegramButton>
-        <TwitterLink href="https://twitter.com/retrievercoin　" target="_blank" rel="noreferrer">
+        </TelegramLink>
+        <TwitterLink href="https://twitter.com/retrievercoin" target="_blank" rel="noreferrer">
           <img src="/images/footer_twitter.png" alt="telegram" />
         </TwitterLink>
       </SocialWrapper>
