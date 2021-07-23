@@ -502,7 +502,7 @@
   "To Top": "맨 위로",
   "Total value of the funds in this farm’s liquidity pool": "이 팜의 유동성 풀에 있는 자금의 총 가치",
   "The multiplier represents the amount of CAKE rewards each farm gets.": "승수는 각 팜이 받는 INU 리워드 액수를 나타냅니다.",
-  "For example, if a 1x farm was getting 1 CAKE per block, a 40x farm would be getting 40 CAKE per block.": "예를 들어, 1x 팜이 블록당 1 INU을 얻으면, 40x 팜은 블록당 40 CAKE을 얻게 됩니다.",
+  "For example, if a 1x farm was getting 1 CAKE per block, a 40x farm would be getting 40 CAKE per block.": "예를 들어, 1x 팜이 블록당 1 INU을 얻으면, 40x 팜은 블록당 40 INU을 얻게 됩니다.",
   "Hot": "핫",
   "Success!": "성공!",
   "You have successfully claimed your rewards.": "리워드 클레임에 성공했습니다.",
