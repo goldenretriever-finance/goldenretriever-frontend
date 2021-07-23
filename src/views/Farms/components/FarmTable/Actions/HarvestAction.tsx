@@ -77,7 +77,7 @@ const HarvestAction: React.FunctionComponent<HarvestActionProps> = ({ pid, userD
     <ActionContainer>
       <ActionTitles>
         <Text bold textTransform="uppercase" color="white" fontSize="12px" pr="4px">
-          CAKE
+          INU
         </Text>
         <Text bold textTransform="uppercase" color="white" fontSize="12px">
           {t('Earned')}
