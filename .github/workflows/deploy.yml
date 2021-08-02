@@ -21,7 +21,10 @@ jobs:
         with:
           repository: goldenretriever-finance/goldenretriever-sdk
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          path: ./../
+      - name: refresh goldenretriever-sdk
+        run: |
+          rm -rf ./../goldenretriever-sdk
+          cp -rp ./ ./../goldenretriever-sdk
       - name: Install dependencies
         run: yarn install
       - name: Run build
