@@ -6,8 +6,8 @@ const tokens = {
   inu: {
     symbol: 'INU',
     address: {
-      56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-      97: '0x40C5B636E3a51CDda8300f7edcF89f58cd2cF250',
+      56: '0x3F8b51C9b9Fe2ed06f9A165db906f7946B4C08E2',
+      97: '',
     },
     decimals: 18,
     projectLink: 'https://goldenretriever-finance.com/',

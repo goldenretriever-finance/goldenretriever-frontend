@@ -417,10 +417,16 @@ const Home: React.FC = () => {
               </div>
               <div className="sns_links">
                 <a href="https://t.me/joinchat/o98mgf0Nqdg5ZGZl" className="sns_link" target="_blank" rel="noreferrer">
-                  <img src="/images/tellegram.png" alt="telegram" />
+                  <img src="/images/telegram.png" alt="telegram" />
                 </a>
                 <a href="https://twitter.com/retrievercoin" className="sns_link" target="_blank" rel="noreferrer">
                   <img src="/images/twitter.png" alt="telegram" />
+                </a>
+                <a href="https://line.me/ti/g2/X-HO6r5raOkKZwDSPv3lEg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" className="sns_link" target="_blank" rel="noreferrer">
+                  <img src="/images/line.png" alt="telegram" />
+                </a>
+                <a href="https://open.kakao.com/o/g1c27qqd" className="sns_link" target="_blank" rel="noreferrer">
+                  <img src="/images/kakao.png" alt="telegram" />
                 </a>
               </div>
             </div>
