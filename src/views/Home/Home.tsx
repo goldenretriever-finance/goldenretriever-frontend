@@ -66,6 +66,11 @@ const HomeMv = styled.div`
     margin-right: 10px;
   }
 
+  div.left_area{
+    position: relative;
+    z-index: 1;
+  }
+
   div.right_area{
     width: 68%;
     margin-left: 36%;
@@ -81,6 +86,89 @@ const HomeMv = styled.div`
     }
   }
 `
+
+const HomeCarousel = styled.div`
+  margin-top: 80px;
+  padding-bottom: 15px;
+  overflow-x: scroll;
+
+  div.carouselwrap {
+    display: block;
+    width: 500px;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      display: flex;
+      justify-content: center;
+      align-items : flex-start;
+      width: 100%;
+    }
+  }
+
+  div.slide {
+    width: 230px;
+    margin: 0 10px 0 0;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.33);
+    box-shadow: rgb(7 0 27 / 40%) 0px 0px 16px;
+    display: inline-block;
+    vertical-align: top;
+
+    ${({ theme }) => theme.mediaQueries.sm} {
+      width: 260px;
+      margin: 0 10px 0 10px;
+      display: block;
+      padding: 15px 25px;
+    }
+  }
+
+  div.image{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  div.text{
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+
+     > span {
+      font-weight: bold;
+      margin-top: 7px;
+      color: #ffeb3b;
+    }
+    ${({ theme }) => theme.mediaQueries.sm} {
+      > span {
+        display: inline;
+      }
+    }
+  }
+
+  div.address{
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: bold;
+    background: #000;
+    padding: 2px 10px 6px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+
+     > span {
+      font-size: 14px;
+      display: block;
+      color: #ffeb3b;
+    }
+  }
+
+  div.addresstxt{
+    word-break: break-all;
+    line-height: 1.2;
+  }
+
+  ${({ theme }) => theme.mediaQueries.sm} {
+    overflow-x: auto;
+  }
+`
+
 
 const HomeContent = styled.div`
   h2 {
@@ -437,6 +525,86 @@ const Home: React.FC = () => {
             </div>
           </HomeMv>
           <StatusArea />
+          <HomeCarousel>
+            <div className="carouselwrap">
+               <div className="slide">
+                 <div className="image">
+                   <img src="/images/carousel01.png" alt="GoldenRetriever" />
+                 </div>
+                 <div className="text">
+                   <span>
+                   Name： 
+                   </span>
+                   GoldenRetriever
+                 <br />
+                   <span>
+                   Symbol：
+                   </span>
+                   INU
+                 <br />
+                   <span>
+                   Start Total Supply：
+                   </span>
+                   8,000
+                 <br />
+                   <span>
+                   Launch date：
+                   </span>
+                   08/08/2021
+                 <br />
+                   <span>
+                   Feature：
+                   </span>
+                 <br />
+                   The Golden Retriever is a large dog. Gentle character with wisdom and loyalty, Golden Retrievers are loved by many.
+                 </div>
+                 <div className="address">
+                   <span>
+                   Contract address
+                   </span>
+                   <div className="addresstxt">0x3F8b51C9b9Fe2ed06f9A165db906f7946B4C08E2</div>
+                 </div>
+               </div>
+               <div className="slide">
+                 <div className="image">
+                   <img src="/images/carousel02.png" alt="Poseidon" />
+                 </div>
+                 <div className="text">
+                   <span>
+                   Name： 
+                   </span>
+                   Poseidon Retriever
+                 <br />
+                   <span>
+                   Symbol：
+                   </span>
+                   RETPOSEIDON
+                 <br />
+                   <span>
+                   Start Total Supply：
+                   </span>
+                   6,000
+                 <br />
+                   <span>
+                   Launch date：
+                   </span>
+                   08/08/2021
+                 <br />
+                   <span>
+                   Feature：
+                   </span>
+                 <br />
+                 King of the sea. He is usually serious, but loves to talk with girls. His favorite food is fish, which he always catches and eats with his prized harpoon.
+                 </div>
+                 <div className="address">
+                   <span>
+                   Contract address
+                   </span>
+                   <div className="addresstxt">0x2a652ae0d27a86fd7b62375e9abe521534f6a9f5</div>
+                 </div>
+               </div>
+            </div>
+          </HomeCarousel>
           <HomeContent>
             <Section1 className="mt50">
               <h2 className="txt_center">
@@ -495,15 +663,15 @@ const Home: React.FC = () => {
                     Schedule
                   </h2>
                   <div className="text_l">
-                    {t('The initial circulating supply is 8,000 coins. Swap will be available at SGT 8 AM on July 7, 2021. The farm will open on August 1, 2021.')}
+                    {t('The initial circulating supply is 8,000 coins. Swap will be available at SGT 8 AM on August 8, 2021. The farm will open on August 8, 2021.')}
                   </div>
                 </div>
               </div>
             </Section4>
             <SlipPage className="txt_center">
-              <div className="title">{t('We recommend using 12% slippage')}</div>
+              <div className="title">{t('We recommend using 12％～16％ slippage')}</div>
               <div className="contract bold">
-                <span className="pr20">Golden retriever Contract</span>0x111111111111111111111111111111111111111111111
+                <span className="pr20">Golden retriever Contract</span>0x3F8b51C9b9Fe2ed06f9A165db906f7946B4C08E2
               </div>
             </SlipPage>
             <Profile>

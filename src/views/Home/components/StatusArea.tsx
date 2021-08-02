@@ -34,6 +34,7 @@ const Area = styled.div`
 
       :nth-child(5) {
         width: 98%;
+        display: none;
         
         .top_area {
           min-height: auto;
@@ -60,6 +61,7 @@ const Area = styled.div`
 
         :nth-child(5) {
           width: 19%;
+          display: none;
          }
       }
     }
