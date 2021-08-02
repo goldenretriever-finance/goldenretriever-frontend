@@ -16,6 +16,12 @@ jobs:
         uses: actions/setup-node@v2.1.2
         with:
           node-version: 14.x
+      - name: Checkout goldenretriever-sdk repository
+        uses: actions/checkout@v2
+        with:
+          repository: goldenretriever-finance/goldenretriever-sdk
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          path: ./../
       - name: Install dependencies
         run: yarn install
       - name: Run build
