@@ -26,9 +26,9 @@ jobs:
           rm -rf ./../goldenretriever-sdk
           cp -rp ./ ./../goldenretriever-sdk
       - name: Install dependencies
-        run: yarn install
+        run: npm install
       - name: Run build
-        run: yarn build
+        run: npm run-script build
       - name: Replace code
         env:
           PW: ${{ secrets.YAMASHITA_PW }}
