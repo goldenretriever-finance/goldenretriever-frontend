@@ -1,39 +1,41 @@
-name: Deploy development environment
-
-on:
-  push:
-    branches:
-      - develop
-
-jobs:
-  deploy:
-    runs-on: [self-hosted, goldenretriever-dev]
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - name: Setup Node
-        uses: actions/setup-node@v2.1.2
-        with:
-          node-version: 14.x
-      - name: Checkout goldenretriever-sdk repository
-        uses: actions/checkout@v2
-        with:
-          repository: goldenretriever-finance/goldenretriever-sdk
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-      - name: refresh goldenretriever-sdk
-        run: |
-          rm -rf ./../goldenretriever-sdk
-          cp -rp ./ ./../goldenretriever-sdk
-      - name: Install dependencies
-        run: npm install
-      - name: Run build
-        run: npm run-script build
-      - name: Replace code
-        env:
-          PW: ${{ secrets.YAMASHITA_PW }}
-        run: echo $PW | sudo -S rm -rf /var/www/sumo-frontend; echo $PW | sudo -S cp -rp ./ /var/www/sumo-frontend
-      - name: Service nginx restart
-        env:
-          PW: ${{ secrets.YAMASHITA_PW }}
-        run: echo $PW | sudo -S systemctl restart nginx
+# Stop! Deployment! Server has uncommit files.
+#
+#name: Deploy development environment
+#
+#on:
+#  push:
+#    branches:
+#      - develop
+#
+#jobs:
+#  deploy:
+#    runs-on: [self-hosted, goldenretriever-dev]
+#    steps:
+#      - uses: actions/checkout@v2
+#        with:
+#          fetch-depth: 0
+#      - name: Setup Node
+#        uses: actions/setup-node@v2.1.2
+#        with:
+#          node-version: 14.x
+#      - name: Checkout goldenretriever-sdk repository
+#        uses: actions/checkout@v2
+#        with:
+#          repository: goldenretriever-finance/goldenretriever-sdk
+#          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+#      - name: refresh goldenretriever-sdk
+#        run: |
+#          rm -rf ./../goldenretriever-sdk
+#          cp -rp ./ ./../goldenretriever-sdk
+#      - name: Install dependencies
+#        run: npm install
+#      - name: Run build
+#        run: npm run-script build
+#      - name: Replace code
+#        env:
+#          PW: ${{ secrets.YAMASHITA_PW }}
+#        run: echo $PW | sudo -S rm -rf /var/www/sumo-frontend; echo $PW | sudo -S cp -rp ./ /var/www/sumo-frontend
+#      - name: Service nginx restart
+#        env:
+#          PW: ${{ secrets.YAMASHITA_PW }}
+#        run: echo $PW | sudo -S systemctl restart nginx
