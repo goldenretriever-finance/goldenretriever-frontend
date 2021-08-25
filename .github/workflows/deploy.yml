@@ -9,9 +9,6 @@ jobs:
   deploy:
     runs-on: [self-hosted, goldenretriever-dev]
     steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
       - name: Setup Node
         uses: actions/setup-node@v2.1.2
         with:
@@ -19,14 +16,19 @@ jobs:
       - name: Checkout goldenretriever-sdk repository
         uses: actions/checkout@v2
         with:
+          path: goldenretriever-sdk
           repository: goldenretriever-finance/goldenretriever-sdk
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - name: Install dependencies
+        working-directory: goldenretriever-sdk
         run: npm install
-      - name: refresh goldenretriever-sdk
-        run: |
-          cp -rp ./ ./../goldenretriever-sdk
-          rm -rf ./
+      - uses: actions/checkout@v2
+        with:
+          path: goldenretriever-frontend
+          fetch-depth: 0
+      - name: Install dependencies
+        working-directory: goldenretriever-frontend
+        run: npm install
       - name: Checkout goldenretriever-sdk repository
         uses: actions/checkout@v2
       - name: Install dependencies
