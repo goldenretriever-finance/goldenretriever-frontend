@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { useTranslation } from 'contexts/Localization'
 import Page from 'components/layout/Page'
 import StatusArea from './components/StatusArea'
+import Carousel from "./components/Carousel";
 
 const AnimeBg = styled.div`
   @keyframes bgiLoop {
@@ -236,7 +237,6 @@ const Section2 = styled.div`
       width: 50%;
     }
   }
-  }
 `
 
 const Section3 = styled.div`
@@ -263,7 +263,6 @@ const Section3 = styled.div`
       width: 50%;
     }
   }
-  }
   img {
     max-height: 375px;
     margin: 0 auto;
@@ -272,7 +271,6 @@ const Section3 = styled.div`
       display: block;
     }
    }
-  }
 `
 
 const Section4 = styled.div`
@@ -302,7 +300,6 @@ const Section4 = styled.div`
       width: 50%;
     }
   }
-  }
 
   img {
     max-height: 350px;
@@ -311,7 +308,6 @@ const Section4 = styled.div`
       display: block;
     }
    }
-  }
 `
 
 const SlipPage = styled.div`
@@ -525,86 +521,7 @@ const Home: React.FC = () => {
             </div>
           </HomeMv>
           <StatusArea />
-          <HomeCarousel>
-            <div className="carouselwrap">
-               <div className="slide">
-                 <div className="image">
-                   <img src="/images/carousel01.png" alt="GoldenRetriever" />
-                 </div>
-                 <div className="text">
-                   <span>
-                   Name： 
-                   </span>
-                   GoldenRetriever
-                 <br />
-                   <span>
-                   Symbol：
-                   </span>
-                   INU
-                 <br />
-                   <span>
-                   Start Total Supply：
-                   </span>
-                   8,000
-                 <br />
-                   <span>
-                   Launch date：
-                   </span>
-                   08/08/2021
-                 <br />
-                   <span>
-                   Feature：
-                   </span>
-                 <br />
-                   The Golden Retriever is a large dog. Gentle character with wisdom and loyalty, Golden Retrievers are loved by many.
-                 </div>
-                 <div className="address">
-                   <span>
-                   Contract address
-                   </span>
-                   <div className="addresstxt">0x3F8b51C9b9Fe2ed06f9A165db906f7946B4C08E2</div>
-                 </div>
-               </div>
-               <div className="slide">
-                 <div className="image">
-                   <img src="/images/carousel02.png" alt="Poseidon" />
-                 </div>
-                 <div className="text">
-                   <span>
-                   Name： 
-                   </span>
-                   Poseidon Retriever
-                 <br />
-                   <span>
-                   Symbol：
-                   </span>
-                   RETPOSEIDON
-                 <br />
-                   <span>
-                   Total Supply：
-                   </span>
-                   6,000
-                 <br />
-                   <span>
-                   Launch date：
-                   </span>
-                   08/08/2021
-                 <br />
-                   <span>
-                   Feature：
-                   </span>
-                 <br />
-                 King of the sea. He is usually serious, but loves to talk with girls. His favorite food is fish, which he always catches and eats with his prized harpoon.
-                 </div>
-                 <div className="address">
-                   <span>
-                   Contract address
-                   </span>
-                   <div className="addresstxt">0x2a652ae0d27a86fd7b62375e9abe521534f6a9f5</div>
-                 </div>
-               </div>
-            </div>
-          </HomeCarousel>
+          <Carousel />
           <HomeContent>
             <Section1 className="mt50">
               <h2 className="txt_center">
