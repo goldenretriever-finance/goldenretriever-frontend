@@ -36,7 +36,7 @@
     "@ethersproject/abi": "^5.1.2",
     "@goldenretriever-libs/sdk": "file:../goldenretriever-sdk",
     "@pancakeswap-libs/sdk": "^1.0.1",
-    "@pancakeswap/uikit": "^0.39.3",
+    "@pancakeswap/uikit": "0.39.3",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.4",
