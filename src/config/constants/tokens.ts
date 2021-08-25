@@ -12,6 +12,15 @@ const tokens = {
     decimals: 18,
     projectLink: 'https://goldenretriever-finance.com/',
   },
+  retposeidon: {
+    symbol: 'RETPOSEIDON',
+    address: {
+      56: '0x2a652aE0d27A86FD7b62375E9ABe521534f6A9F5',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://goldenretriever-finance.com/',
+  },
   form: {
     symbol: 'FORM',
     address: {

@@ -16,25 +16,37 @@ const farms: FarmConfig[] = [
     quoteToken: tokens.wbnb,
   },
   {
-    pid: 1,
+    pid: 4,
     lpSymbol: 'INU-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0xc8FB3Cb96FF53b7DA444B61a978c5b12fe343099',
+      56: '0x479ca6c5b7D0Adf13e3d201a75C59658Bd30D1e5',
     },
     token: tokens.inu,
     quoteToken: tokens.wbnb,
+    multiplier:"0.001"
   },
   {
-    pid: 3,
+    pid: 6,
     lpSymbol: 'BUSD-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xf5c254986e3f8BF47757C652a2105735D51a88b9',
+      56: '0x8e94a4cE3c133bAde84Bba599a0443708F132750',
     },
     token: tokens.busd,
     quoteToken: tokens.wbnb,
   },
+  {
+    pid: 5,
+    lpSymbol: 'RETPOSEIDON-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x511AD74963aD65b508b349B975ae6980418Eee6E',
+    },
+    token: tokens.retposeidon,
+    quoteToken: tokens.wbnb,
+    multiplier:"0.001"
+  }
 ]
 
 export default farms

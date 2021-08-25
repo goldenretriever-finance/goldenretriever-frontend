@@ -217,7 +217,7 @@ const Farms: React.FC = () => {
         case 'multiplier':
           return orderBy(
             farms,
-            (farm: FarmWithStakedValue) => (farm.multiplier ? Number(farm.multiplier.slice(0, -1)) : 0),
+            (farm: FarmWithStakedValue) => (farm.multiplier ? Number(farm.multiplier) : 0),
             'desc',
           )
         case 'earned':

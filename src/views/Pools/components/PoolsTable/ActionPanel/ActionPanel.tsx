@@ -196,8 +196,8 @@ const ActionPanel: React.FC<ActionPanelProps> = ({ account, pool, userDataLoaded
         <Text>{hasPoolStarted ? t('Ends in') : t('Starts in')}:</Text>
         <Flex>
           <Link external href={getBscScanBlockCountdownUrl(hasPoolStarted ? endBlock : startBlock)}>
-            <Balance fontSize="16px" value={blocksToDisplay} decimals={0} color="primary" />
-            <Text ml="4px" color="primary" textTransform="lowercase">
+            <Balance fontSize="16px" value={blocksToDisplay} decimals={0} color="white" />
+            <Text ml="4px" color="white" textTransform="lowercase">
               {t('Blocks')}
             </Text>
             <TimerIcon ml="4px" color="primary" />

@@ -30,7 +30,7 @@ const EndsInCell: React.FC<FinishCellProps> = ({ pool }) => {
   const renderBlocks = shouldShowBlockCountdown ? (
     <Flex alignItems="center">
       <Flex flex="1.3">
-        <Balance fontSize="16px" value={blocksToDisplay} decimals={0} />
+        <Balance color='white' fontSize="16px" value={blocksToDisplay} decimals={0} />
         <Text ml="4px" textTransform="lowercase" color='white'>
           {t('Blocks')}
         </Text>
@@ -46,7 +46,7 @@ const EndsInCell: React.FC<FinishCellProps> = ({ pool }) => {
       </Flex>
     </Flex>
   ) : (
-    <Text>-</Text>
+    <Text color='white'>-</Text>
   )
 
   // A bit hacky way to determine if public data is loading relying on totalStaked

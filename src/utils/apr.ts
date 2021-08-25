@@ -19,14 +19,6 @@ export const getPoolApr = (
   const totalStakingTokenInPool = new BigNumber(stakingTokenPrice).times(totalStaked)
   const apr = totalRewardPricePerYear.div(totalStakingTokenInPool).times(100)
 
-  console.log(stakingTokenPrice);
-  console.log(rewardTokenPrice);
-  console.log(totalStaked);
-  console.log(tokenPerBlock);
-  console.log(totalRewardPricePerYear);
-  console.log(totalStakingTokenInPool);
-  console.log(apr);
-
   return apr.isNaN() || !apr.isFinite() ? null : apr.toNumber()
 }
 
@@ -38,6 +30,7 @@ export const getPoolApr = (
  * @returns
  */
 export const getFarmApr = (poolWeight: BigNumber, cakePriceUsd: BigNumber, poolLiquidityUsd: BigNumber): number => {
+
   const yearlyCakeRewardAllocation = CAKE_PER_YEAR.times(poolWeight)
   const apr = yearlyCakeRewardAllocation.times(cakePriceUsd).div(poolLiquidityUsd).times(100)
   return apr.isNaN() || !apr.isFinite() ? null : apr.toNumber()

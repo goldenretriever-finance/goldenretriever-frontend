@@ -581,7 +581,7 @@ const Home: React.FC = () => {
                    RETPOSEIDON
                  <br />
                    <span>
-                   Start Total Supply：
+                   Total Supply：
                    </span>
                    6,000
                  <br />
